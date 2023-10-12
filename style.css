@@ -14,6 +14,20 @@
     width:calc(100% - 120px);
     margin:20px auto;
 }
+
+h1{
+    position: relative;
+    font-size: 48px;
+}
+h1::after{
+    content: '';
+    position: absolute;
+    top: 77px;
+    left: 0;
+    width: 100px;
+    height: 6px;
+    background-color: #007BFF;
+}
 .items{
     display: flex;
     flex-direction: column;
